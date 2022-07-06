@@ -1,0 +1,261 @@
+body{
+    margin: 0 auto;   
+    font-family: 'Roboto', sans-serif;
+}
+
+/****Header section start****/
+
+.header-section{    
+    width: 100%;
+    height: 100vh;   
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url(images/header-background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.header-container{   
+    color: white;
+    text-align: center;
+    padding-top:240px   
+}
+
+.header-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px 350px;
+}
+
+.header-text{
+    margin: 30px 450px;
+}
+
+.header-button{
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(228, 67, 8);
+    border: none;
+    border-radius: 3px;
+}
+
+/****Header section end****/
+
+/****main section start****/
+
+.main-container{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main-title{
+    margin-bottom: 10px;    
+    font-size: 40px;
+}
+
+.main-text{
+    color: #666666;
+    margin: 0px 450px;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;    
+}
+
+.main-card1{
+    width: 100px;
+    height: 100px;
+    color: #666666;
+    background-color: rgba(245, 241, 241, 0.503);
+    border-radius: 4px;
+    margin: 0px 8px;    
+}
+
+.card-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+#donate-now{
+    background-color: rgba(244, 229, 221, 0.817);
+    border: 2px solid rgb(255, 94, 0);
+    color: orangered;
+}
+
+.main-form{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-input{
+    text-align: center;  
+    width: 560px;  
+    border: none;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(220, 215, 215);
+    font-size: 15px;
+}
+
+.main-button{
+    margin-top: 15px;
+    text-align: center;
+}
+
+/****main section end****/
+
+/****Article section start****/
+
+.article-card{
+    margin-top: 60px;    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-iteam{
+    width: 260px;
+    height: 280px;
+    background-color: rgba(244, 240, 240, 0.669);
+    border-radius: 4px;
+    margin: 0px 10px;
+    padding:40px 20px 20px 20px;
+    text-align: justify;
+}
+
+.card-icon{       
+    width: 45px;
+}
+
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    font-size: 20px;
+}
+
+#bacground{
+    background-color: rgba(246, 228, 231, 0.811);
+}
+
+/****Article section end****/
+
+/****Special section start****/
+
+.contant-container{
+    margin:150px 250px 0px 250px;    
+}
+
+.contant-item{    
+    display: flex;    
+}
+
+.contant{    
+    width: 50%;    
+}
+
+.contant img{
+    width: 360px;
+    height: 350px;
+    margin-left: 30px;
+    border-radius: 4px; 
+    border: 1px solid black;   
+}
+
+.contant h1{    
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contant-button{
+    border: none;
+    padding: 15px 25px;
+    background-color: rgba(210, 0, 0, 0.789);
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/****Special section end****/
+
+/****from  section start****/
+
+.spcial-from{
+    margin-top: 0;   
+}
+
+.form-section{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 0;  
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    width: 700px;
+    height: 200px;
+    background-color: rgba(251, 221, 165, 0.486);
+    text-align: center;
+}
+
+.form-iteam{
+    margin-top: 90px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;   
+}
+
+.form-text{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(218, 212, 212, 0.937);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;  
+}
+
+#form button{
+    padding: 10px 20px ;
+    border: none;
+    color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgba(255, 48, 72, 0.886);
+}
+
+/****from  section end****/
+
+/****footer  section start****/
+
+.footer-section{  
+    margin-top: 110px;
+    width: 100%;  
+    height: 150px;
+    background-color: black;       
+}
+
+.footer-container{  
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-text{  
+    margin-bottom: 30px;  
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: rgba(255, 35, 35, 0.946)
+    
+}
+
+#footer-small{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.706);
+    font-size: 10px;
+}
+
+/****footer  section end****/
+
